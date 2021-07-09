@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+
+        
+        <input type="button" value="Mostrar Mensaje" id="mostrarMensaje">
+    </form>
+
+    <script>
+        const mensaje = document.getElementById('mostrarMensaje');
+        mensaje.addEventListener('click',()=>{
+            let edad = 15;
+            let nombre = 'Luz';
+            console.log(nombre + " tiene " + edad + " años de edad");
+            alert(nombre + " tiene " + edad + " años de edad");
+            document.write(nombre + " tiene " + edad + " años de edad");
+        })
+    </script>
+</body>
+</html>

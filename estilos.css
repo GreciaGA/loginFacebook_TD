@@ -1,0 +1,10 @@
+/* Mostrar */
+.show  {
+    display: block;
+}
+
+/* ocultar: */
+.hide {
+    display: none;
+}
+
